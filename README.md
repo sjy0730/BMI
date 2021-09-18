@@ -7,4 +7,4 @@
 ### 개발사용툴 (IDE) : Andriod Studio v4.2.2
 ### 소속 : 지윤컴 교습소
 
-<img src="BMI photo"
+<img src="BMI photo.png">
