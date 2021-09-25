@@ -9,13 +9,31 @@
     android:paddingRight="10dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:text="@string/title"
-        android:textSize="25dp" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디: sjy"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="50dp"
+            android:layout_gravity="center"
+            android:text="@string/title"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -90,7 +108,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="220dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="220dp"
         android:text="로그인 화면으로" />
 
 

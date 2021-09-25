@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void goLogin(){
 
-        String id = "jyseo";
+        String id = "sjy";
         String pwd = "1234";
 
         /**

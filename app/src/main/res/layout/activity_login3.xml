@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="패스워드를 입력해주세요."
+        android:hint="비밀번호를 입력해주세요."
         android:inputType="textPassword"
         android:textColorHint="#68000000">
 
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="3dp"
+        android:layout_marginHorizontal="4dp"
         android:background="#16C3BC"
         android:text="로그인"
         android:textColor="@color/white" />
