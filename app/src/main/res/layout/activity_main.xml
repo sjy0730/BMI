@@ -74,30 +74,24 @@
         android:textStyle="bold"
         tools:text="BMI : 22" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <TextView
+        android:id="@+id/txt_result_msg"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:text="결과는 [정상]" />
 
-        <TextView
-            android:id="@+id/txt_result_msg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textColor="@color/black"
-            android:textSize="19dp"
-            android:textStyle="bold"
-            tools:text="결과는 [정상]" />
-
-        <Button
-            android:id="@+id/ac_login"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="140dp"
-            android:text="로그인 화면으로" />
-
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/ac_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="200dp"
+        android:text="로그인 화면으로" />
 
 
 </LinearLayout>

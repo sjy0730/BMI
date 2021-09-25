@@ -3,6 +3,7 @@ package com.jyseo.bmi;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
@@ -95,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
         acLog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this , LoginActivity.class);
+                startActivity(intent);
 
             }
         });
