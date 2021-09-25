@@ -18,6 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     AppCompatButton btnJoin;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
